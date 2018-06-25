@@ -1,0 +1,18 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.row.gutter-12 {
+  margin-left: -6px;
+  margin-right: -6px;
+  [class*="col-"] {
+    margin-bottom: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
